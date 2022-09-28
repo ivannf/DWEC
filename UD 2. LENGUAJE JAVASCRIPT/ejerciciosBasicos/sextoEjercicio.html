@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sextoEjercicio</title>
+</head>
+<body>
+    <input type="text" id="texto">
+    <input type="submit" id="submit">
+    <div>
+        <p id="textoFinal"></p>
+    </div>
+    <script>
+        const element = document.getElementById("submit");
+        element.addEventListener("click", j6);
+
+        function j6() {
+            document.getElementById("textoFinal").innerHTML = document.getElementById("texto").value;
+        }
+    </script>
+</body>
+</html>
